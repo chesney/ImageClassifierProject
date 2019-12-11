@@ -166,8 +166,8 @@ Converting the two lists to a dictionary to print on screen
 def fn_print_probability(probs, flowers):
     
     for i, j in enumerate(zip(flowers, probs)):
-        print ("Rank {}:".format(i+1),
-               "Flower: {}, likelihood: {}%".format(j[1], math.ceil(j[0]*100)))
+        print (f'Rank {i+1}:',
+               f'Flower: {j[1]}, likelihood: {math.ceil(j[0]*100)}%')
     
 
 
