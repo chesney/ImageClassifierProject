@@ -28,7 +28,7 @@ def fn_parser():
 
     parser.add_argument('--image', 
                         type=str, 
-                        help='Point to the impage file for prediction.',
+                        help='Point to the image file for prediction.',
                         required=True)
  
     parser.add_argument('--top_k', 
@@ -167,7 +167,7 @@ def fn_print_probability(probs, flowers):
     
     for i, j in enumerate(zip(flowers, probs)):
         print ("Rank {}:".format(i+1),
-               "Flower: {}, liklihood: {}%".format(j[1], math.ceil(j[0]*100)))
+               "Flower: {}, likelihood: {}%".format(j[1], math.ceil(j[0]*100)))
     
 
 
