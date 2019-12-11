@@ -46,10 +46,6 @@ We predict a flower name from an image using predict.py along with the probabili
 
 ### Basic usage:
 
-```python predict.py /path/to/image checkpoint image_path = "flowers/test/10/image_07090.jpg"```
-    
-### Options:
-
 1. Return top KKK most likely classes: 
 
 ```python predict.py flowers/test/10/image_07090.jpg train_results/checkpoint.pth --top_k 3```
