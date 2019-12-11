@@ -46,10 +46,10 @@ We predict a flower name from an image using predict.py along with the probabili
 
 ### Basic usage:
 
-Return top KKK most likely classes for the given image, using
-a mapping of categories to real names:
+Return top KKK most likely classes for the given image, using a mapping of categories to real names.
+This command returns the top 5 predictions.
 
-```python predict.py --image flowers/test/10/image_07090.jpg --checkpoint ./train_results/checkpoint.pth --top_k 3 --category_names cat_to_name.json```
+```python predict.py --image flowers/test/10/image_07090.jpg --checkpoint ./train_results/checkpoint.pth --top_k 5 --category_names cat_to_name.json```
 
 This command can be run on the GPU or CPU depending on which
 device is available. Use the ```--gpu``` flag to run the above

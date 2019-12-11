@@ -33,7 +33,7 @@ def fn_parser():
  
     parser.add_argument('--top_k', 
                         type=int, 
-                        help='Choos the top K matches as integer.')
+                        help='Choose the top K matches as integer.')
 
     parser.add_argument('--checkpoint', 
                         type=str, 
