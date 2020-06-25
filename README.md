@@ -54,3 +54,6 @@ This command returns the top 5 predictions.
 This command can be run on the GPU or CPU depending on which
 device is available. Use the ```--gpu``` flag to run the above
 command on the GPU.
+
+### Certification
+![Alt text](cert.png?raw=true "Nano Degree Certificate")
